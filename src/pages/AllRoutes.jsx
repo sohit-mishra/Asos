@@ -51,7 +51,7 @@ export default function AllRoutes() {
 
 
       <Route path='/' element={<Layout><Home /></Layout>} />
-      <Route path='/singleProduct' element={<Layout><SingleProduct /></Layout>} />
+      <Route path='/singleProduct/:id' element={<Layout><SingleProduct /></Layout>} />
       <Route path='/men' element={<Layout><Men /></Layout>} />
       <Route path='/women' element={<Layout><Women /></Layout>} />
       <Route path='/customercare' element={<Layout><CustomerCare /></Layout>} />
